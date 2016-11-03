@@ -11,5 +11,6 @@ namespace CardBattle.Models
         Diamonds,
         Hearts,
         Spades,
+        End,
     }
 }

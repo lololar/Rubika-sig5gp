@@ -20,5 +20,10 @@ namespace CardBattle.Models
             Value = value;
         }
 
+        public override string ToString()
+        {
+            return Value + " of " + Suit;
+        }
+
     }
 }

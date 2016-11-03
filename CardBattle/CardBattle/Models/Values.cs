@@ -15,5 +15,6 @@ namespace CardBattle.Models
         Queen,
         King,
         Ace,
+        End,
     }
 }

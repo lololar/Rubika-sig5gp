@@ -12,9 +12,17 @@ namespace CardBattle
         {
             var clubAce = new Card(Values.Ace, Suit.Clubs);
 
+            /*for (int i = 0; i < (int)Values.End; i++)
+            {
+                for (int j = 0; j < (int)Suit.End; j++)
+                {
 
+                }
+            }*/
 
-            Console.WriteLine();
+            Console.WriteLine("I created a card : " + clubAce);
+
+            Console.ReadLine();
         }
     }
 }
